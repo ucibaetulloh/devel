@@ -1,0 +1,15 @@
+.noDataContent {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.no-data {
+  color: #fcd9d9;
+  font-size: 16px;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+}

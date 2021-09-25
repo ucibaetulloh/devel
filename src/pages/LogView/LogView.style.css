@@ -1,0 +1,301 @@
+* > body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.headers {
+  /* padding: 10px 16px; */
+  background: rgb(255, 255, 255);
+  /* color: #f1f1f1; */
+}
+
+.contents {
+  /* padding: 16px; */
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  max-width: 500px;
+  z-index: 1;
+}
+
+.sticky + .contents {
+  padding-top: 102px;
+  max-width: 500px;
+}
+
+.ContentHeader {
+  max-width: 500px;
+  margin: auto;
+  /* border: 3px solid #73ad21; */
+}
+
+table.table-icon {
+  width: inherit;
+}
+
+.service-icons {
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.service-icons-container {
+  border-bottom: 1px solid #d9d9d9;
+  overflow: auto;
+}
+
+.service-icon-column {
+}
+
+.service-link-label {
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.service-link-label img {
+  width: 40px;
+  height: 40px;
+}
+.service-link-active {
+  color: #005ce6 !important;
+}
+
+.service-reservation {
+  padding-top: 10px;
+}
+
+.service-reservation .padding-container-left {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.service-reservation .padding-container-right {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.service-reservation .img-container {
+  text-align: center;
+  position: relative;
+  height: 150px;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+}
+.service-reservation .img-container img {
+  width: 100%;
+  max-height: 150px;
+  margin: auto;
+}
+
+.service-reservation .img-container .name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.service-list {
+  border-bottom: 1px solid #d9d9d9;
+  background-color: #fff;
+}
+.service-list-col-dot {
+  padding: 5px 10px;
+  text-align: center;
+  width: 30px;
+  font-size: 9px;
+}
+
+.service-list-col1 {
+  padding: 15px 10px;
+}
+.service-list-col1 .service-name {
+  font-size: 16px;
+  color: #000;
+}
+.service-list-col1 .service-desc {
+  font-size: 13px;
+  color: #8c8c8c;
+}
+
+.service-list-col-price {
+  padding: 10px;
+  text-align: right;
+  padding-right: 20px;
+}
+.service-list-col-price .service-price {
+  font-size: 14px;
+  color: #4d4d4d;
+}
+
+.service-list-col-qty {
+  padding-right: 10px;
+  width: 90px;
+}
+.service-list-col-qty .service-btn {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-color: #ff9900;
+  margin-top: -2px;
+}
+.service-list-col-qty .service-qty {
+  display: inline-block;
+  margin-right: 3px;
+  margin-left: 3px;
+  border: 1px solid #d9d9d9;
+  width: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.service-status-label {
+  color: #8c8c8c;
+  font-size: 13px;
+  text-align: center;
+}
+
+.service-status-value {
+  font-size: 16px;
+  text-align: center;
+}
+
+.service-scroll-view {
+  position: absolute;
+  top: 116px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: auto;
+  background-color: #fafafa;
+}
+
+.service-footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #005ce6;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.no-data {
+  color: #8c8c8c;
+  font-size: 16px;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 3;
+  right: 3;
+}
+
+.container-logview {
+  padding: 10px;
+}
+
+.row-form-logview {
+  display: inline;
+  flex-direction: row;
+}
+
+.label-container {
+  margin-right: 10px;
+}
+
+.form-button-container-logview {
+  text-align: right;
+  padding: 5px;
+  border-top: 1px solid #d9d9d9;
+}
+
+.logview-list-section-data {
+  position: absolute;
+  top: 160px;
+  bottom: 10px;
+  left: 0px;
+  right: 0px;
+  background-color: #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow: auto;
+}
+.logview-list-section-data .list {
+  border-bottom: 1px solid #d9d9d9;
+  padding: 5px;
+}
+.logview-list-section-data .list .title {
+  color: #0066ff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.logview-list-section-data .list .shortdesc {
+  color: #404040;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.logview-list-section-data .list .time {
+  color: #a6a6a6;
+  font-size: 12px;
+  margin-top: 3px;
+}
+.logview-list-section-data .list .shortdesc {
+  color: #333;
+  font-size: 13px;
+  margin-top: 3px;
+}
+.logview-list-section-data .no-data {
+  color: #8c8c8c;
+  font-size: 18px;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+}
+
+.logview-list-section-data .loadmore-container {
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  color: #0066ff;
+  text-decoration: underline;
+}
+
+.logview-list-section-data .loadmore-loading-container {
+  text-align: center;
+  padding: 5px;
+}
+.logview-list-section-data .loadmore-loading-container img {
+  width: 50px;
+  height: 50px;
+}

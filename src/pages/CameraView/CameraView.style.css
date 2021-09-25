@@ -1,0 +1,39 @@
+* > body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.headers {
+  /* padding: 10px 16px; */
+  background: rgb(255, 255, 255);
+  /* color: #f1f1f1; */
+}
+
+.contents {
+  /* padding: 16px; */
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  max-width: 500px;
+  z-index: 1;
+}
+
+.sticky + .contents {
+  padding-top: 102px;
+  max-width: 500px;
+  scroll-behavior: smooth;
+}
+
+.ContentHeader {
+  max-width: 500px;
+  margin: auto;
+  /* border: 3px solid #73ad21; */
+}

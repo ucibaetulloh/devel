@@ -1,0 +1,28 @@
+.button-bottom {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
+  padding: 10px;
+  float: none;
+  background-color: white;
+}
+
+.button-bulat {
+  background-color: #1976d2;
+  /* border-radius: 20%; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* max-width: 500px; */
+}
+
+.button-bottom2 {
+  position: relative;
+  width: 100%;
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
+  padding: 10px;
+  float: none;
+  background-color: white;
+}

@@ -1,0 +1,142 @@
+* > body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.headers {
+  /* padding: 10px 16px; */
+  background: rgb(255, 255, 255);
+  /* color: #f1f1f1; */
+}
+
+.contents {
+  /* padding: 16px; */
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  max-width: 500px;
+  z-index: 1;
+}
+
+.sticky + .contents {
+  padding-top: 102px;
+  max-width: 500px;
+  scroll-behavior: smooth;
+}
+
+.ContentEmergency {
+  max-width: 500px;
+  margin: auto;
+  /* border: 3px solid #73ad21; */
+}
+
+.emergency {
+  background-color: #fff;
+}
+
+.emergency .tab-section {
+  padding-top: 0px !important;
+  background-color: #fff;
+  border-bottom: 1px solid #d9d9d9;
+  height: 40px;
+}
+.emergency .tab-section .tab-item {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+  color: #bfbfbf;
+  height: 39px;
+  line-height: 39px;
+  padding-bottom: 0px !important;
+}
+.emergency .tab-section .active-tab {
+  color: #2e6da4;
+  border-bottom: 2px solid #2e6da4;
+}
+
+.emergency .body-section {
+  padding: 10px;
+  margin-bottom: 70px;
+}
+
+.emergency .img-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.emergency .img-container img {
+  width: 100%;
+}
+.emergency .list .title {
+  padding: 2px;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.emergency .list {
+  border-bottom: 1px solid #d9d9d9;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.emergency .list .time {
+  color: #b3b3b3;
+  font-size: 12px;
+  margin-top: 3px;
+}
+.emergency .title {
+  padding: 2px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.emergency .description {
+  padding: 2px;
+  color: #000;
+  font-size: 14px;
+}
+.emergency .table-contact {
+  width: 100%;
+}
+.emergency .table-contact td {
+  padding: 10px 3px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.emergency img.contact-pic {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.emergency td.column-pic {
+  width: 60px;
+}
+.emergency td.column-icon {
+  width: 40px;
+}
+.emergency td.column-icon img {
+  width: 35px;
+}
+
+.emergency .contact-name {
+  font-size: 14px;
+}
+.emergency .contact-position {
+  font-size: 13px;
+  color: #808080;
+}
+
+.emergency .no-data {
+  color: #8c8c8c;
+  font-size: 16px;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+}

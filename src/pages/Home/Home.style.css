@@ -1,0 +1,98 @@
+.HomeBanner {
+  background-color: white;
+  width: 100%;
+}
+
+.HomeBanner img {
+  width: 100%;
+  height: 100%;
+}
+
+.home-header {
+  width: 100%;
+}
+
+.home-banner-container {
+  height: 250px;
+  /* height: 230px; */
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.BottomBanner {
+  background-color: white;
+  width: 100%;
+}
+
+.BottomBanner img {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+}
+.header img {
+  width: 100%;
+  height: 100%;
+}
+
+.headerHomeBottom {
+  background-color: white;
+  width: 100%;
+}
+.headerHomeBottom img {
+  width: 100%;
+  height: 120%;
+}
+
+.icons {
+  background-color: #ffffff;
+  /* margin-top: 8px; */
+  margin-bottom: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.home-icons-container {
+  /* margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px; */
+  margin: 16px;
+}
+.home-icons-container::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.home-icons-container .icon-column {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.link-label {
+  font-size: 11px;
+  color: #0c2924;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  font-weight: 700;
+}
+
+.link-label img {
+  width: 60px;
+  /* margin-bottom: 6px; */
+}
+
+.bottonNavigation {
+  background-color: darkblue;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
